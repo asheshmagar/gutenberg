@@ -135,6 +135,7 @@ const skipSerializationPathsSave = {
 };
 
 const skipSerializationPathsSaveChecks = {
+	[ `${ DIMENSIONS_SUPPORT_KEY }.aspectRatio` ]: true,
 	[ `${ BACKGROUND_SUPPORT_KEY }` ]: true,
 };
 
